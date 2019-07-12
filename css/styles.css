@@ -1,0 +1,14 @@
+
+.main{
+  /* background-image: url(https://previews.123rf.com/images/argus456/argsus4561702/argus456170219971/72131118-grunge-old-ghana-flag.jpg; */
+  background-size: cover;
+
+}
+
+.title{
+  color: black;
+  font-family: fantasy;
+}
+body{
+  background-image: url("https://previews.123rf.com/images/argus456/argus4561702/argus456170219971/72131118-grunge-old-ghana-flag.jpg");
+}
