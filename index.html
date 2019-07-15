@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Name Generator</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
   </head>
   <body>
 
@@ -27,12 +28,13 @@
             <option value="other">other</option>
           </select>
           <h3>GENERATED NAME</h3>
-            <input type="text" name="GENERATED Name=">
-            <<button type="button" name="Generate">Generate</button>
+            <input type="text" name="GENERATED Name=" id="output">
+            <button type="button" name="Generate" onclick="displayName();">Generate</button>
         </div>
     </form>
   </center>
 
 
   </body>
+
 </html>
